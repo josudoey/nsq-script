@@ -1,6 +1,6 @@
 #!/bin/bash -e
-version=0.3.8
-go_version=1.6.2
+version=1.2.0
+go_version=1.12.9
 cd /tmp
 wget https://s3.amazonaws.com/bitly-downloads/nsq/nsq-${version}.linux-amd64.go${go_version}.tar.gz -O nsq-${version}.linux-amd64.go${go_version}.tar.gz
 tar -zxvf nsq-${version}.linux-amd64.go${go_version}.tar.gz
